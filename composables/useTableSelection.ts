@@ -15,7 +15,7 @@ export function useTableSelection<T>(dataSource: Ref<T[]> | T[]) {
   });
 
   const isEmptySource = computed(() => {
-    return source.value.length > 0;
+    return source.value.length == 0;
   });
 
   const isSelectedAvailable = computed(() => {
