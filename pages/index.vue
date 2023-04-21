@@ -12,7 +12,6 @@
 
 <script setup lang="ts">
 const featureList = [
-  "composable - Use Table Selection",
   "component - Reusable Input",
   "component - Reusable Button",
   "component - Reusable Select",
@@ -41,4 +40,8 @@ const featureList = [
   "composable - Use Custom Head ( a nuxt useHead wrapper)",
   "component - Reusable Tag Input",
 ];
+
+const completedFeatures = [
+    "composable - Use Table Selection",
+]
 </script>
