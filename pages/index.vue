@@ -12,7 +12,6 @@
 
 <script setup lang="ts">
 const featureList = [
-  "component - Reusable Input",
   "component - Reusable Button",
   "component - Reusable Select",
   "component - Reusable Quantity Increase",
@@ -43,5 +42,6 @@ const featureList = [
 
 const completedFeatures = [
     "composable - Use Table Selection",
+    "component - Reusable Input",
 ]
 </script>
