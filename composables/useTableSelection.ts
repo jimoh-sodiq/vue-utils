@@ -33,7 +33,6 @@ export function useTableSelection<T>(dataSource: Ref<T[]> | T[]) {
   watch(
     source.value,
     () => {
-      console.log("hello there");
       selectedRows.value = selectedRows.value.filter((row) =>
         source.value.includes(row)
       );
