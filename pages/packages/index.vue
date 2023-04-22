@@ -44,13 +44,6 @@
 <script setup lang="ts">
 import { useFuse } from "@vueuse/integrations/useFuse";
 
-interface Package {
-  name: string;
-  description: string;
-  link: string;
-  keywords: string[];
-}
-
 const searchTerm = ref("");
 
 const packageList = usePackageList()
