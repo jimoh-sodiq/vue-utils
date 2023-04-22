@@ -1,7 +1,10 @@
 <template>
   <div>
     <h1>Welcome to jimoh utils</h1>
-    <p>Below are the list of features currently available and my best practices explained for them too</p>
+    <p>
+      Below are the list of features currently available and my best practices
+      explained for them too
+    </p>
     <ul>
       <li v-for="(features, index) in featureList" :key="index">
         {{ features }}
@@ -13,7 +16,6 @@
 <script setup lang="ts">
 const featureList = [
   "component - Reusable Button",
-  "component - Reusable Select",
   "component - Reusable Quantity Increase",
   "composable - Use Currency Formatter",
   "component - Reusable Pagination component",
@@ -28,7 +30,6 @@ const featureList = [
   "component - Programmatic Sidebar",
   "component - Reusable Sidebar and sidebar items", // use in the programmatic sidebar
   "component - Reusable Otp Input",
-  "component - Reusable Accordion",
   "component - Reusable Avatar",
   "component - Reuseable Skeleton loader",
   "Global Feature - All Icon management techniques",
@@ -41,8 +42,10 @@ const featureList = [
 ];
 
 const completedFeatures = [
-    "composable - Use Table Selection",
-    "component - Reusable Input",
-    "packages list"
+  "composable - Use Table Selection",
+  "component - Reusable Input",
+  "packages list",
+  "component - Reusable Select",
+  "component - Reusable Accordion",
 ]
 </script>
