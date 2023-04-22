@@ -43,5 +43,6 @@ const featureList = [
 const completedFeatures = [
     "composable - Use Table Selection",
     "component - Reusable Input",
+    "packages list"
 ]
 </script>
