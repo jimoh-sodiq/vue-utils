@@ -18,9 +18,6 @@
           Custom styles for all states with dynamic classes for handle
           overlapping states (e.g when error and disabled are true)
         </li>
-        <li>
-          Debouce built into it with maxWaitTime prop and debouce time allowed
-        </li>
       </ul>
     </div>
     <div>
